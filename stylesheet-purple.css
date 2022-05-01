@@ -1,0 +1,294 @@
+purple
+{}
+
+/*Variablen*/
+
+body {
+    --mfarbepurple: #8a00ff;
+    --sfarbepurple: #8a2be2;
+    --gfarbepurple: #a640ff;
+}
+
+
+/* Divs */
+
+.MHEADER {
+    font-family: arial;
+    font-size: 18px;
+    height: 200px;
+    background-color: var(--gfarbepurple);
+}
+
+.bodydiv {
+    height: 100%;
+    margin-right: 110px;
+    margin-left: 110px;
+}
+
+/*Master Header*/
+
+#logoheader {
+    margin-left: 200px;
+}
+#textheader {
+    font-size: 28px;
+}
+
+
+
+/*Nav Bar*/
+
+.Navcolor{
+    background-color: var(--mfarbepurple);
+}
+
+.Naul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: inherit;
+    font-size: 20px;
+    margin-right: 110px;
+    margin-left: 110px;
+}
+
+.Nali {
+    float: left;
+}
+
+.Nali a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+}
+
+
+.Nali a:hover {
+    background-color: var(--sfarbepurple);
+    color: black;
+    display: block;
+    border-radius: 30px 0 0 0;
+}
+
+.active {
+    background-color: var(--sfarbepurple);
+    border-radius: 30px 0 0 0;
+}
+
+
+/* Images */
+
+.test{
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+/* Standart Elmentt */
+
+table, th, td {
+    border: #000000;
+    min-width: 500px;
+    height: 56px;
+    font-size: 20px;
+
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+th.color, td.color {
+    background-color: var(--mfarbepurple);
+}
+
+th, td {
+    background-color: var(--sfarbepurple);
+}
+
+a{
+    color:var(--sfarbepurple)
+}
+a:hover{
+    color:#0000ff
+
+}
+
+body{
+    background-color:#ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: consolas;
+    text-align: center;
+    background-color: inherit;
+    padding: 10px;
+
+}
+
+.liborder {
+    border: solid var(--sfarbepurple);
+    border-radius: 6px;
+    float: left;
+    padding: 10px;
+
+}
+
+
+
+
+/* Dropwdown */
+
+
+
+
+
+.dropdowns {
+    float: left;
+    overflow: hidden;
+    background-color: var(--mfarbepurple);
+    padding: 10px;
+    padding-right: 0px;
+    border-radius: 15px;
+    box-shadow: grey 4px 4px 4px;
+    margin: 15px;
+}
+.dropdowns .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 24px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+.dropdowns:hover .dropbtn {
+    background-color: var(--sfarbepurple);
+    color: black;
+    display: block;
+    border-radius: 30px 0 0 30px;
+}
+
+
+.dropdowns:hover .dropdown-content {
+    display: block;
+    border-radius: 18px;
+    margin-top: 15px;
+    background-color: inherit;
+    color: white;
+    padding: 9px;
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+
+
+.dropdown .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 24px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown .dropbtnactive {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 24px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    margin: 0;
+    background-color: var(--sfarbepurple);
+    border-radius: 30px 0 0 0;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: var(--sfarbepurple);
+    color: black;
+    display: block;
+    border-radius: 30px 0 0 0;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    z-index: 1; /* Z Index= je höher index desto priorisierter über anderen sachen angezeigt*/
+}
+
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: var(--sfarbepurple);
+}
+
+
+.dropdown-content a:hover {
+    background-color: var(--gfarbepurple);
+    color: black;
+    display: block;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+.down {
+    transform: rotate(45deg);
+}
+
+.arrow {
+    border: solid;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    margin: 4px;
+    color: inherit;
+}
+
+
+
